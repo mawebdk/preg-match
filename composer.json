@@ -1,0 +1,21 @@
+{
+  "name": "mawebdk/preg-match",
+  "description": "PregMatch is an encapsulation of preg_match returning a boolean instead of 0/1 and throwing an exception in case of an error.",
+  "license": "BSD-2-Clause",
+  "require": {
+    "php": "^8.3.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MawebDK\\PregMatch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MawebDK\\PregMatch\\Test\\": "test/"
+    }
+  }
+}
